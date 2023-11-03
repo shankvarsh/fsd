@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+<button type="button" onclick="myFunction()" style="position:fixed; size: 50px;" >Click Me!</button>
+<br>
+<br>
+<p id="demo" style="font-size: 35px;">JavaScript can change HTML content.</p>
+
+
+<script>
+    function myFunction() {
+  var x = document.getElementById('demo');
+  if (x.style.fontSize === '35px') {
+    x.style.fontSize = '10px';
+  } else {
+    x.style.fontSize = '35px';
+  }
+}
+</script>
+</body>
+</html>
